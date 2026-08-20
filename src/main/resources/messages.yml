@@ -1,0 +1,22 @@
+admin:
+  reload: "<green>DialogRenamer configuration and messages reloaded successfully!</green>"
+  no-permission: "<red>You do not have permission to execute this command.</red>"
+
+command:
+  player-only: "<red>Only players can execute this command.</red>"
+  invalid-item: "<red>You must hold a valid item in your main hand.</red>"
+
+dialog:
+  title: "<gold>Edit Item</gold>"
+  instructions:
+    - "<gray>Edit item name and lore.</gray>"
+    - "<gray>Supports & legacy and &#rrggbb hex color codes.</gray>"
+  name-label: "Name"
+  input-label: "Lore (one line per row)"
+  btn-confirm: "<green>OK</green>"
+  btn-confirm-tooltip: "Confirm edits"
+  btn-cancel: "<red>Cancel</red>"
+  btn-cancel-tooltip: "Close without saving"
+
+success:
+  lore-updated: "<green>Item updated successfully!</green>"

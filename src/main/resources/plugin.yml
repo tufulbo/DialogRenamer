@@ -1,0 +1,27 @@
+name: DialogRenamer
+version: '${project.version}'
+main: com.jcruz.dialogrenamer.DialogRenamerPlugin
+api-version: '1.21'
+author: JCRUZ
+description: Edit item lore and name using a Dialog
+commands:
+  de:
+    description: Open dialog to edit name and lore of item in hand
+    usage: /de [reload]
+    permission: dialogrenamer.use
+permissions:
+  dialogrenamer.use:
+    description: Allows using /de command
+    default: op
+    children:
+      dialogrenamer.edit.name: true
+      dialogrenamer.edit.lore: true
+  dialogrenamer.edit.name:
+    description: Allows editing item name
+    default: op
+  dialogrenamer.edit.lore:
+    description: Allows editing item lore
+    default: op
+  dialogrenamer.admin:
+    description: Allows reloading plugin configuration and messages
+    default: op

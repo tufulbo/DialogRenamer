@@ -1,0 +1,27 @@
+
+target/
+
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Minecraft
+run/
+logs/
+
+# Misc
+*.log
+local.properties
